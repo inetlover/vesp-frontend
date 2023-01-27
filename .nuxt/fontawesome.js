@@ -1,0 +1,101 @@
+import Vue from 'vue'
+import { library, config } from '@fortawesome/fontawesome-svg-core'
+import {
+  FontAwesomeLayers,
+  FontAwesomeLayersText,
+  FontAwesomeIcon
+} from '@fortawesome/vue-fontawesome'
+
+import {
+  faHome as freeFasFaHome,
+  faCartShopping as freeFasFaCartShopping,
+  faMinus as freeFasFaMinus,
+  faPlus as freeFasFaPlus,
+  faList as freeFasFaList,
+  faQrcode as freeFasFaQrcode,
+  faLocationDot as freeFasFaLocationDot,
+  faCheck as freeFasFaCheck,
+  faEnvelope as freeFasFaEnvelope,
+  faPhone as freeFasFaPhone,
+  faUser as freeFasFaUser,
+  faComments as freeFasFaComments,
+  faGears as freeFasFaGears,
+  faHandshake as freeFasFaHandshake,
+  faUsers as freeFasFaUsers,
+  faBusinessTime as freeFasFaBusinessTime,
+  faPhoneVolume as freeFasFaPhoneVolume,
+  faAddressCard as freeFasFaAddressCard,
+  faMarker as freeFasFaMarker,
+  faTruckMonster as freeFasFaTruckMonster,
+  faLightbulb as freeFasFaLightbulb,
+  faTableCellsLarge as freeFasFaTableCellsLarge,
+  faScrewdriverWrench as freeFasFaScrewdriverWrench,
+  faMobileScreen as freeFasFaMobileScreen,
+  faEllipsis as freeFasFaEllipsis,
+  faEllipsisVertical as freeFasFaEllipsisVertical,
+  faDiceD6 as freeFasFaDiceD6,
+  faCubes as freeFasFaCubes,
+  faClockRotateLeft as freeFasFaClockRotateLeft,
+  faChampagneGlasses as freeFasFaChampagneGlasses,
+  faRectangleList as freeFasFaRectangleList,
+  faTruckFast as freeFasFaTruckFast,
+  faArrowRight as freeFasFaArrowRight,
+  faMoneyCheckDollar as freeFasFaMoneyCheckDollar,
+  faMoneyCheck as freeFasFaMoneyCheck,
+  faFileSignature as freeFasFaFileSignature,
+  faFileInvoiceDollar as freeFasFaFileInvoiceDollar,
+  faBarcode as freeFasFaBarcode,
+  faSignature as freeFasFaSignature,
+  faWallet as freeFasFaWallet,
+  faDownload as freeFasFaDownload
+} from '@fortawesome/free-solid-svg-icons'
+
+library.add(
+  freeFasFaHome,
+  freeFasFaCartShopping,
+  freeFasFaMinus,
+  freeFasFaPlus,
+  freeFasFaList,
+  freeFasFaQrcode,
+  freeFasFaLocationDot,
+  freeFasFaCheck,
+  freeFasFaEnvelope,
+  freeFasFaPhone,
+  freeFasFaUser,
+  freeFasFaComments,
+  freeFasFaGears,
+  freeFasFaHandshake,
+  freeFasFaUsers,
+  freeFasFaBusinessTime,
+  freeFasFaPhoneVolume,
+  freeFasFaAddressCard,
+  freeFasFaMarker,
+  freeFasFaTruckMonster,
+  freeFasFaLightbulb,
+  freeFasFaTableCellsLarge,
+  freeFasFaScrewdriverWrench,
+  freeFasFaMobileScreen,
+  freeFasFaEllipsis,
+  freeFasFaEllipsisVertical,
+  freeFasFaDiceD6,
+  freeFasFaCubes,
+  freeFasFaClockRotateLeft,
+  freeFasFaChampagneGlasses,
+  freeFasFaRectangleList,
+  freeFasFaTruckFast,
+  freeFasFaArrowRight,
+  freeFasFaMoneyCheckDollar,
+  freeFasFaMoneyCheck,
+  freeFasFaFileSignature,
+  freeFasFaFileInvoiceDollar,
+  freeFasFaBarcode,
+  freeFasFaSignature,
+  freeFasFaWallet,
+  freeFasFaDownload
+)
+
+config.autoAddCss = false
+
+Vue.component('fa', FontAwesomeIcon)
+Vue.component('faLayers', FontAwesomeLayers)
+Vue.component('faLayersText', FontAwesomeLayersText)
